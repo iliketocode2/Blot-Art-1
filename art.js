@@ -64,8 +64,28 @@ let p6 = [
   [(width / 2) - 0.7, (height / 2) + 0.7]
 ];
 
+let p7 = [
+  [width, height / 2],
+  [(width / 2) + 0.7, (height / 2)]
+];
+
+let p8 = [
+  [width / 2, height],
+  [(width / 2), (height / 2) + 1]
+];
+
+let p9 = [
+  [width / 2, 0],
+  [(width / 2), (height / 2) - 0.8]
+];
+
+let p10 = [
+  [0, height / 2],
+  [(width / 2) - 0.7, (height / 2)]
+];
+
 // add the polyline to the final lines
-finalLines.push(p, p1, p2, p3, p4, p5, p6);
+finalLines.push(p, p1, p2, p3, p4, p5, p6, p7, p8, p9, p10);
 
 // draw it
 drawLines(finalLines);
